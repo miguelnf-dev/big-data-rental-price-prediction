@@ -27,7 +27,7 @@ Before running the project, it's recommended to create a new Conda environment t
 
 ### Run the Project 
 
-With your Conda environment activated and dependencies installed, the various components of the project can now be run as described in the Components section of the README. Follow the instructions provided in each component's description to execute the code and analyze the data.
+With your Conda environment activated and dependencies installed, the various components of the project in the Components section of the README can now be run . 
 Note: The code uses placeholders like 'CLUSTER_URL_HERE' for paths and URLs related to the college's cluster. You'll need to update these placeholders to work with a different HDFS environment.
 
 
