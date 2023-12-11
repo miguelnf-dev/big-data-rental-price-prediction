@@ -2,7 +2,7 @@
 
 This project aims to predict the rental price of properties based on their characteristics. It utilizes Apache Spark and other big data tools to process and analyze a large dataset of USA rental listings scraped from Craigslist (https://www.kaggle.com/datasets/austinreese/usa-housing-listings).  
 
-A linear regression machine learning model is trained to predict prices using property information like square footage, number of bedrooms/bathrooms, location, etc. The model is evaluated and persists on HDFS for low-latency, streaming predictions as new listing data arrives.
+A Linear Regression and Random Forest machine learning models are trained to predict prices using property information like square footage, number of bedrooms/bathrooms, location, etc. The models are evaluated and persist on HDFS for low-latency, streaming predictions as new listing data arrives.
 
 ## Tools/Technologies
 
@@ -17,12 +17,16 @@ A linear regression machine learning model is trained to predict prices using pr
 
 The repository contains:
 
-- Source code for data ingestion, preprocessing, model training and evaluation, Kafka streaming, and monitoring dashboard    
-- Trained regression model
- 
+- Source code for data ingestion, preprocessing, model training and evaluation, Kafka streaming, and monitoring dashboard     
 
 ## Usage  
 
 Instructions for running the code and replicating the analysis are contained in the README files in sub-directories. The `app.py` script will launch the real-time monitoring dashboard.   
 
-Let me know if you would like any changes or have additional information to include!
+## Contributing
+
+Contributions to this project are welcome! If you have any suggestions or improvements, please feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
