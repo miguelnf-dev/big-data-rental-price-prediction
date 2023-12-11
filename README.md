@@ -15,15 +15,15 @@ This project aims to predict housing rental prices in the USA based on property 
 
 Before running the project, it's recommended to create a new Conda environment to manage dependencies. You can do this using the following commands:
 
--conda create --name project-env python=3.8
+"conda create --name project-env python=3.8"
 
 ### Activate the Conda Environment
 
--conda activate project-env
+"conda activate project-env"
 
 ### Install Dependencies from 'requirements.txt'
 
--pip install -r requirements.txt
+"pip install -r requirements.txt"
 
 ### Run the Project 
 
