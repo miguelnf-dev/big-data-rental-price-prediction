@@ -3,11 +3,14 @@
 This project aims to predict housing rental prices in the USA based on property characteristics. It leverages various big data tools and technologies to process and analyze a large dataset of US rental listings from [Kaggle](https://www.kaggle.com/datasets/austinreese/usa-housing-listings).
 
 ## Table of Contents
+- [Project Diagram](#diagram)
 - [Usage](#usage)
 - [Tools/Technologies](#tools/technologies)
-- [Components](#components)
 - [Contributors](#contributors)
 - [License](#license)
+
+## Project diagram
+TODO
 
 ## Usage
 
@@ -27,7 +30,7 @@ Before running the project, it's recommended to create a new Conda environment t
 
 ### Run the Project 
 
-With your Conda environment activated and dependencies installed, the various components of the project in the Components section of the README can now be run . 
+With your Conda environment activated and dependencies installed, the various components of the project can now be run . 
 Note: The code uses placeholders like 'CLUSTER_URL_HERE' for paths and URLs related to the college's cluster. You'll need to update these placeholders to work with a different HDFS environment.
 
 
@@ -39,30 +42,6 @@ Note: The code uses placeholders like 'CLUSTER_URL_HERE' for paths and URLs rela
 - Apache Kafka - High throughput message broker
 - HDFS - Distributed file storage system
 - Streamlit - Framework for creating web apps
-
-## Components
-
-### Kafka
-
-The Kafka component includes two notebooks:
-- `kafka_producer.ipynb`: This notebook generates fake housing data and sends it to a Kafka topic, simulating real-time data ingestion.
-- `kafka_consumer.ipynb`: This notebook sets up a Kafka consumer to ingest data, process it, and store it in HDFS.
-
-
-### Model Training
-
-The `Big_Data_Housing_Price_Prediction_Model_Training.ipynb` notebook is responsible for training machine learning models using PySpark. It covers data preprocessing, feature engineering, model training, hyperparameter tuning, and model evaluation.
-
-### Real-Time Streaming
-
-The `streaming_prediction.ipynb` notebook sets up a real-time streaming application that reads data from Kafka, applies a pre-trained machine learning model for prediction, and provides real-time insights into housing prices.
-
-### Web Application
-
-The `app.py` file contains the code for a Streamlit web application. It offers a user-friendly interface to explore real-time Key Performance Indicators (KPIs) and visualizations based on the processed housing data.
-
-![Example of different metrics shown in the web app](./img/img1.png)
-![Example of different metrics shown in the web app](./img/img2.png)
 
 
 ## Contributors
