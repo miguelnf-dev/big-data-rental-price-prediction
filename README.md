@@ -14,7 +14,15 @@ This project aims to predict housing rental prices in the USA based on property 
 ## Project Structure
 
 - notebooks/
+  - kafka/
+    - kafka_consumer.ipynb
+    - kafka_producer.ipynb
+  - model/
+    - Big_Data_Housing_Price_Prediction_Model_Training.ipynb
+  - streaming/
+    - streaming_prediction.ipynb
 - web_app/
+  - app.py
 - README.md
 
 ## Tools/Technologies
