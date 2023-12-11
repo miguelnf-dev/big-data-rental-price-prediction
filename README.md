@@ -3,27 +3,33 @@
 This project aims to predict housing rental prices in the USA based on property characteristics. It leverages various big data tools and technologies to process and analyze a large dataset of US rental listings from [Kaggle](https://www.kaggle.com/datasets/austinreese/usa-housing-listings).
 
 ## Table of Contents
-- [Project Structure](#project-structure)
+- [Usage](#usage)
 - [Tools/Technologies](#tools/technologies)
 - [Components](#components)
-- [Usage](#usage)
-- [Requirements](#requirements)
 - [Contributors](#contributors)
 - [License](#license)
 
-## Project Structure
+## Usage
 
-- notebooks/
-  - kafka/
-    - kafka_consumer.ipynb
-    - kafka_producer.ipynb
-  - model/
-    - Big_Data_Housing_Price_Prediction_Model_Training.ipynb
-  - streaming/
-    - streaming_prediction.ipynb
-- web_app/
-  - app.py
-- README.md
+### Create a New Conda Environment
+
+Before running the project, it's recommended to create a new Conda environment to manage dependencies. You can do this using the following commands:
+
+-conda create --name project-env python=3.8
+
+### Activate the Conda Environment
+
+-conda activate project-env
+
+### Install Dependencies from 'requirements.txt'
+
+-pip install -r requirements.txt
+
+### Run the Project 
+
+With your Conda environment activated and dependencies installed, the various components of the project can now be run as described in the Components section of the README. Follow the instructions provided in each component's description to execute the code and analyze the data.
+Note: The code uses placeholders like 'CLUSTER_URL_HERE' for paths and URLs related to the college's cluster. You'll need to update these placeholders to work with a different HDFS environment.
+
 
 ## Tools/Technologies
 
@@ -58,26 +64,6 @@ The `app.py` file contains the code for a Streamlit web application. It offers a
 ![Example of different metrics shown in the web app](./img/img1.png)
 ![Example of different metrics shown in the web app](./img/img2.png)
 
-## Usage
-
-### Create a New Conda Environment
-
-Before running the project, it's recommended to create a new Conda environment to manage dependencies. You can do this using the following commands:
-
--conda create --name project-env python=3.8
-
-### Activate the Conda Environment
-
--conda activate project-env
-
-### Install Dependencies from 'requirements.txt'
-
--pip install -r requirements.txt
-
-### Run the Project 
-
-With your Conda environment activated and dependencies installed, the various components of the project can now be run as described in the Components section of the README. Follow the instructions provided in each component's description to execute the code and analyze the data.
-Note: The code uses placeholders like 'CLUSTER_URL_HERE' for paths and URLs related to the college's cluster. You'll need to update these placeholders to work with a different HDFS environment.
 
 ## Contributors
 
