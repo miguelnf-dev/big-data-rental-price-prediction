@@ -2,7 +2,7 @@
 
 This project aims to predict the rental price of properties based on their characteristics. It utilizes Apache Spark and other big data tools to process and analyze a large dataset of USA rental listings scraped from Craigslist (https://www.kaggle.com/datasets/austinreese/usa-housing-listings).  
 
-A Linear Regression and Random Forest machine learning models are trained to predict prices using property information like square footage, number of bedrooms/bathrooms, location, etc. The models are evaluated and persist on HDFS for low-latency, streaming predictions as new listing data arrives.
+A Linear Regression and Random Forest machine learning models are trained to predict prices using property information like square footage, number of bedrooms/bathrooms, location, etc. The models are evaluated and persist on Hadoop Distributed File System (HDFS) for low-latency, streaming predictions as new listing data arrives.
 
 ## Tools/Technologies
 
